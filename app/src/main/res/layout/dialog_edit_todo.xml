@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etEditTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/title1" />
+
+    <EditText
+        android:id="@+id/etEditDescription"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/description1" />
+
+    <TextView
+        android:id="@+id/etEditDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/due_date"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:clickable="true"
+        android:focusable="false" />
+
+    <EditText
+        android:id="@+id/etEditTags"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:hint="@string/tags1" />
+</LinearLayout>

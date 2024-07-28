@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="due_date">Due Date</string>
+    <string name="tags">Tags</string>
+    <string name="add_todo">Add Todo</string>
+    <string name="item_title">Title</string>
+    <string name="item_description">Description</string>
+    <string name="item_due_date">Due Date</string>
+    <string name="item_tags">Tags</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="sort_by_due_date">Sort by</string>
+    <string name="tags1">Tags</string>
+    <string name="description1">Description</string>
+    <string name="title1">Title</string>
+    <string name="empty_msg">Welcome to your todo list!</string>
+    <string-array name="sort_options">
+        <item>Sort by Due Date (Asc)</item>
+        <item>Sort by Due Date (Desc)</item>
+    </string-array>
+
+
+</resources>
